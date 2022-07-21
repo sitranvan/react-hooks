@@ -1,0 +1,92 @@
+body {
+    background-color: #62D7D0;
+}
+
+.todo {
+    width: 400px;
+    min-height: 300px;
+    height: auto;
+    padding: 20px 20px 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form {
+    height: 40px;
+    margin-top: 20px;
+    flex: 1;
+    position: relative;
+}
+
+.form>input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid #b5bebf;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.add {
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: #8E49E9;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.add:hover {
+    opacity: 0.9;
+}
+
+.todo-list {
+    list-style: none;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.todo-item:not(:first-child) {
+    margin-top: 10px;
+}
+
+.todo-item>span {
+    margin-left: 10px;
+    color: #333;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.remove {
+    margin-left: auto;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #E74D3D;
+    color: white;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.remove:hover {
+    opacity: 0.9
+}

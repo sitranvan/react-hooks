@@ -1,0 +1,43 @@
+.pagination {
+    text-align: center;
+}
+
+.pagination>h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.number {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+.number>span {
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #969494;
+    cursor: pointer;
+
+}
+
+.active {
+    background-color: #FF0063;
+    color: white;
+}
+
+.number button {
+    width: 80px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #969494;
+    font-weight: 600;
+    color: #333;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #C689C6;
+}
