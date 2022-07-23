@@ -23,3 +23,63 @@ code {
   display: flex;
   justify-content: center;
 }
+
+.todo-app {
+  width: 300px;
+  margin: 100px auto 0;
+}
+
+.todo-form {
+  display: flex;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  flex: 1;
+  border: 1px solid rgb(178, 175, 175);
+  outline: none;
+  padding: 0 10px;
+  border-radius: 3px 0 0 3px;
+}
+
+.todo-form button {
+  width: 60px;
+  border: 1px solid rgb(178, 175, 175);
+  background-color: bisque;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.todo-list li span {
+  margin-left: 10px;
+}
+
+.todo-list li div {
+  display: flex;
+  margin-right: 5px;
+  gap: 0 20px;
+  cursor: pointer;
+}
+
+.video {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.video video {
+  width: 100%;
+}
+
+.video button {
+  border: 1px solid #736a6a;
+  padding: 5px 0;
+  cursor: pointer;
+}

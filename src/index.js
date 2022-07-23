@@ -2,10 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-
+import Provider from './components/store/Provider';
+import App2 from './App2';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
-  <App />
+  <Provider>
+    <App />
+    <App2 />
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function
